@@ -16,6 +16,7 @@ object Pi extends App {
 
   class Worker extends Actor {
 
+
     def calculatePiFor(start: Int, nrOfElements: Int): Double = {
       var acc = 0.0
       for (i ← start until (start + nrOfElements))
